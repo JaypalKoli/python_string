@@ -1,0 +1,25 @@
+Assignment Topic (Program Name): Program to check if a substring is present in a given string
+Algorithm:
+ 1) Take a string and a substring from the user and store it in separate variables.
+ 2) Check if the substring is present in the string using find() in-built function.
+ 3) Print the final result.
+ 4)  Exit.
+
+Program:
+
+str1=input("Enter a string: ")
+str2=input("Enter a substring to search: ")
+index=str1.find(str2)
+if index==-1:
+    print("Substring is not found")
+else:
+    print("Substring found at index:{}".format(index))
+
+Input:
+
+Enter a string: R.C.Patel institute of technology, shirpur
+Enter a substring to search: technology
+
+Output:
+
+Substring found at index:23
