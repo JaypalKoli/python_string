@@ -15,11 +15,11 @@ if index==-1:
 else:
     print("Substring found at index:{}".format(index))
 
-Input:
+'''Input:
 
 Enter a string: R.C.Patel institute of technology, shirpur
 Enter a substring to search: technology
 
 Output:
 
-Substring found at index:23
+Substring found at index:23'''
