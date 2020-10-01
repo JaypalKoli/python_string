@@ -1,4 +1,4 @@
-Assignment Topic (Program Name): Program to check if a substring is present in a given string
+Program Name: Program to check if a substring is present in a given string
 Algorithm:
  1) Take a string and a substring from the user and store it in separate variables.
  2) Check if the substring is present in the string using find() in-built function.
